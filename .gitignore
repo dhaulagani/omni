@@ -1,0 +1,5 @@
+nodes.json
+omni_sync.tar.gz
+monitor.log
+__pycache__/
+*.pyc

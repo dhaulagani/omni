@@ -1,0 +1,18 @@
+{
+  "nodes": [
+    {
+      "name": "windows-worker",
+      "host": "my-windows-ssh-alias",
+      "remote_dir": "C:/Users/your-user/.gemini/config/skills/omni",
+      "shell": "powershell",
+      "enabled": true
+    },
+    {
+      "name": "linux-workstation",
+      "host": "my-linux-ssh-alias",
+      "remote_dir": "~/.gemini/config/skills/omni",
+      "shell": "posix",
+      "enabled": false
+    }
+  ]
+}
